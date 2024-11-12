@@ -68,7 +68,7 @@ class Skull(Sprite):
         if pygame.sprite.spritecollide(self, self.game.player_group, False ):
             Helper.PlaySound("collect.wav")
             self.game.damage(10)  
-        self.kill
+            self.kill
 
 
 delay_time = 10
